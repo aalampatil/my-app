@@ -3,8 +3,8 @@ interface DocumentsLayoutProps {
 }
 const DocumentsLayout = ({ children }: DocumentsLayoutProps) => {
   return (
-    <div className="flex flex-col gap-y-4">
-      <nav>document navbar</nav>
+    <div className="">
+      {/* <nav>document navbar</nav> */}
       {children}
     </div>
   )
